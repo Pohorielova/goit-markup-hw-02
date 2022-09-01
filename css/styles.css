@@ -90,6 +90,7 @@ body {
 .contacts .link {
   color: var(--secondary-text-color);
   text-decoration: none;
+  font-weight: 500;
 }
 
 /* Section */
@@ -160,6 +161,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  color: var(--secondary-text-color);
 }
 
 /* Porfolio/Section Projects */
@@ -244,7 +246,9 @@ body {
   letter-spacing: 0.03em;
 }
 
-.button-filtr:active {
+.button-filtr:active,
+.button-filtr:hover,
+.button-filtr:focus {
   background-color: var(--accent-color);
   color: var(--clear-white-color);
 }
